@@ -14,7 +14,8 @@ public class HashMaps{
         ht.put(1, "My");
         ht.put(2, "CSC");
         ht.put(3, "211");
-	ht.put(4, "Success");	
+	    ht.put(4, "Success");
+        ht.put(key ,name);	
 
 	// Printing the mappings (key/value) to the console
 	System.out.println();
