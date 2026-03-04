@@ -3,7 +3,7 @@ import java.util.*;
 import java.lang.Math.*; 
 
 ////////////////////////////////////////////
-public class Node{
+ class Node{
         long key;
         String data;
         Node next;
@@ -57,11 +57,12 @@ public class Node{
 ///////LinkedList class ends////////
   
   
- class tryList {
+ public class tryList {
         public int n = 2;
-            public static void main(String args[]) {
+            public static void main(String[] args) {
                 linkedList L = new linkedList();
-  System.out.println("L.Head.Key = " + L.head.key+" L.Head.Data = " +L.head.data+" L.Length= " + L.length + " L.Head.Next = " + L.head.next);
+                System.out.println("L.Head.Key = " + L.head.key+" L.Head.Data = " 
+                + L.head.data+" L.Length= " + L.length + " L.Head.Next = " + L.head.next);
                 Node item;
                 long id; 
                 String studentName;
